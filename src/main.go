@@ -10,7 +10,7 @@ func main() {
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Hello Go App V1.0.0",
+			"message": "Hello Go App V1.0.1",
 		})
 	})
 	r.Run()
