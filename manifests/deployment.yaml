@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: flux-demo-go-app
-        image: hpark2330/flux-demo-go-app:1.0.0 # {"$imagepolicy": "tenant2:mrt-demo-go-app-image-policy"}
+        image: docker.io/hpark2330/flux-demo-go-app:1.0.1 # {"$imagepolicy": "tenant2:mrt-demo-go-app-image-policy"}
         imagePullPolicy: Always
         ports:
         - name: http
